@@ -1,0 +1,8 @@
+YAML
+version: '3.8'
+services:
+web:
+image: tu-usuario/petstore:latest
+ports:
+- "3000:3000"
+restart: always
